@@ -1,0 +1,21 @@
+{
+  "name": "india-ecommerce-website",
+  "version": "1.0.0",
+  "description": "Hi! This is git hub file of India E-commerce Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-prebuild": "cd client && npm install && npm run build && cd .. && cd backend && npm install",
+    "start": "cd backend && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammad-Sabir-au45/India-Ecommerce-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammad-Sabir-au45/India-Ecommerce-Website/issues"
+  },
+  "homepage": "https://github.com/Mohammad-Sabir-au45/India-Ecommerce-Website#readme"
+}
